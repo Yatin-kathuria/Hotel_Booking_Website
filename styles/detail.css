@@ -1,6 +1,13 @@
 body {
     width: 100vw;
     height: 100vh;
+    margin: 0;
+    background-color: #e0e0e0;
+}
+
+header,
+footer {
+    background-color: rosybrown;
 }
 
 header img {
@@ -8,9 +15,21 @@ header img {
     width: 60px;
 }
 
+.hotel-image {
+    margin: 2% 4% 0 4%;
+}
+
 .hotel-image img {
     height: 500px;
     width: 500px;
+}
+
+.booking-form {
+    margin: 0 4% 1% 4%;
+}
+
+.hotel-details {
+    margin: 1% 4% 2% 4%;
 }
 
 .social-media-images img {

@@ -19,38 +19,52 @@
                 <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
                     alt="Radisson Blu Hotel">
             </div>
-            <form action="payment.html" method="GET" autocomplete="off">
-                <label for="adults">Adults:</label>
-                <input type="number" id="adults" name="adults" autocomplete="off" min="1" required><br><br>
+            <form action="payment.html" method="GET" autocomplete="off" class="booking-form">
+                <div>
+                    <label for="adults">Adults:</label>
+                    <input type="number" id="adults" name="adults" autocomplete="off" min="1" required>
+                </div>
 
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" autocomplete="off" required><br><br>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" autocomplete="off" required>
+                </div>
 
-                <label for="fromDate">From Date:</label>
-                <input type="date" id="fromDate" name="fromDate" autocomplete="off" required><br><br>
+                <div>
+                    <label for="fromDate">From Date:</label>
+                    <input type="date" id="fromDate" name="fromDate" autocomplete="off" required>
+                </div>
 
-                <label for="toDate">To Date:</label>
-                <input type="date" id="toDate" name="toDate" autocomplete="off" required><br><br>
+                <div>
+                    <label for="toDate">To Date:</label>
+                    <input type="date" id="toDate" name="toDate" autocomplete="off" required>
+                </div>
 
-                <label for="total">Total:</label>
-                <input type="number" id="total" name="total" autocomplete="off" disabled><br><br>
+                <div>
+                    <label for="total">Total:</label>
+                    <input type="number" id="total" name="total" autocomplete="off" disabled>
+                </div>
 
                 <button type="submit">Book Now</button>
             </form>
-            <h2>Radisson Blu Hotel</h2>
-            <p>Rating</p>
-            <p>5 star</p>
-            <p>AMENITIES</p>
-            <ul>
-                <li>Room Service</li>
-                <li>Restaurent</li>
-                <li>Business Center</li>
-                <li>Fitness Center</li>
-                <li>Pool</li>
-            </ul>
-            <h5>Description</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ipsa, qui quisquam, sed assumenda incidunt
-                quod aspernatur debitis dolores illo quidem. Fugit, id esse. Maxime repellat porro nobis dicta ex?</p>
+            <div class="hotel-details">
+                <h2>Radisson Blu Hotel</h2>
+                <p>Rating</p>
+                <p>5 star</p>
+                <p>AMENITIES</p>
+                <ul>
+                    <li>Room Service</li>
+                    <li>Restaurent</li>
+                    <li>Business Center</li>
+                    <li>Fitness Center</li>
+                    <li>Pool</li>
+                </ul>
+                <h5>Description</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ipsa, qui quisquam, sed assumenda
+                    incidunt
+                    quod aspernatur debitis dolores illo quidem. Fugit, id esse. Maxime repellat porro nobis dicta ex?
+                </p>
+            </div>
         </div>
 
         <!-- Footer Section -->

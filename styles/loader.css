@@ -1,0 +1,18 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Loader style */
+.loader {
+    width: 70px;
+    height: 70px;
+    border: 12px solid #f3f3f3;
+    border-top: 12px solid #444444;
+    /* Top part with different color */
+    border-radius: 50%;
+}
