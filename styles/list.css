@@ -3,16 +3,56 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #e0e0e0;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#content {
+    flex: 1;
+    overflow: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 header,
 footer {
     background-color: rosybrown;
+    padding: 0 1%;
 }
 
 header img {
     height: 60px;
     width: 60px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    font-weight: bold;
+    margin: 2% 0;
+}
+
+#list-view {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
 }
 
 #list-view .card {
@@ -29,4 +69,18 @@ header img {
 .social-media-images img {
     height: 20px;
     width: 20px;
+}
+
+footer .details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+
+footer .copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
 }
