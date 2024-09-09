@@ -5,17 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/styles/detail.css">
 </head>
 
 <body>
     <div>
-        <div>
-            <a href="/index.html"><img src="/assests/images/logo.png" alt="logo" width="100px" height="100px"></a>
+        <header>
+            <a href="/index.html"><img src="/assests/images/logo.png" alt="logo"></a>
             <a href="login.html" style="margin-left: 10px;">Login</a>
-        </div>
+        </header>
         <div>
-            <div> <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
-                    alt="Radisson Blu Hotel"></div>
+            <div class="hotel-image">
+                <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
+                    alt="Radisson Blu Hotel">
+            </div>
             <form action="payment.html" method="GET" autocomplete="off">
                 <label for="adults">Adults:</label>
                 <input type="number" id="adults" name="adults" autocomplete="off" min="1" required><br><br>
@@ -51,25 +54,25 @@
         </div>
 
         <!-- Footer Section -->
-        <div>
+        <footer>
             <div>
                 <a href="contact.html">Contact Us</a>
             </div>
-            <div>
+            <div class="social-media-images">
                 <a href="https://facebook.com" target="_blank">
-                    <img src="assests/images/facebook.png" alt="Facebook" width="22px" height="20px">
+                    <img src="assests/images/facebook.png" alt="Facebook">
                 </a>
                 <a href="https://instagram.com" target="_blank">
-                    <img src="/assests/images/instagram.png" alt="Instagram" width="22px" height="20px">
+                    <img src="/assests/images/instagram.png" alt="Instagram">
                 </a>
                 <a href="https://twitter.com" target="_blank">
-                    <img src="assests/images/twitter.png" alt="Twitter" width="22px" height="20px">
+                    <img src="assests/images/twitter.png" alt="Twitter">
                 </a>
             </div>
             <div>
                 &copy; 2022 ROOM Search PVT LTD
             </div>
-        </div>
+        </footer>
     </div>
 </body>
 
