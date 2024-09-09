@@ -10,13 +10,30 @@
 <body>
     <div>
         <div>
-            <img src="/assests/images/logo.png" alt="logo" width="100px" height="100px">
-            <a href="login.html" target="_blank" style="margin-left: 10px;">Login</a>
+            <a href="/index.html"><img src="/assests/images/logo.png" alt="logo" width="100px" height="100px"></a>
+            <a href="login.html" style="margin-left: 10px;">Login</a>
         </div>
         <div>
             <div> <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
                     alt="Radisson Blu Hotel"></div>
-            <a href="/payment.html">Book Now</a>
+            <form action="payment.html" method="GET" autocomplete="off">
+                <label for="adults">Adults:</label>
+                <input type="number" id="adults" name="adults" autocomplete="off" min="1" required><br><br>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" autocomplete="off" required><br><br>
+
+                <label for="fromDate">From Date:</label>
+                <input type="date" id="fromDate" name="fromDate" autocomplete="off" required><br><br>
+
+                <label for="toDate">To Date:</label>
+                <input type="date" id="toDate" name="toDate" autocomplete="off" required><br><br>
+
+                <label for="total">Total:</label>
+                <input type="number" id="total" name="total" autocomplete="off" disabled><br><br>
+
+                <button type="submit">Book Now</button>
+            </form>
             <h2>Radisson Blu Hotel</h2>
             <p>Rating</p>
             <p>5 star</p>
@@ -36,7 +53,7 @@
         <!-- Footer Section -->
         <div>
             <div>
-                <a href="contact.html" target="_blank">Contact Us</a>
+                <a href="contact.html">Contact Us</a>
             </div>
             <div>
                 <a href="https://facebook.com" target="_blank">
